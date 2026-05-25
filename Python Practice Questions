@@ -1,0 +1,108 @@
+🟡 LEVEL 5: Functions & Logic Building
+31. Create a function to find maximum of 3 numbers
+32. Write a function to calculate factorial
+33. Create a function to check prime number
+34. Create a function to count vowels in a string
+35. Write a function to find sum of digits
+36. Find whether a year is leap year
+37. Create a calculator using functions
+
+(+ , - , * , /)
+
+38. Find Armstrong number
+39. Find all prime numbers between 1 to 100
+40. Generate Fibonacci series using function
+🟠 LEVEL 6: List & Collection Challenges
+41. Find duplicate elements in a list
+42. Find frequency of each element in list
+43. Rotate a list by K positions
+44. Find missing number in a sequence
+
+Example:
+
+[1,2,3,5]
+
+Missing → 4
+
+45. Split even and odd numbers into separate lists
+46. Find intersection of two lists
+47. Find union of two lists
+48. Remove all duplicates without using set()
+49. Find pairs with given sum
+
+Example:
+
+Target = 10
+[2,8], [3,7]
+50. Find second smallest element
+🔵 LEVEL 7: String Challenges
+51. Count frequency of each character
+52. Find first non-repeating character
+53. Reverse words in sentence
+
+Example:
+
+"Python is easy"
+
+Output:
+
+"easy is Python"
+54. Check if two strings are anagrams
+55. Compress string
+
+Example:
+
+aaabbcc
+
+Output:
+
+a3b2c2
+56. Find longest word in sentence
+57. Count words in paragraph
+58. Remove special characters from string
+59. Convert sentence to title case
+60. Find duplicate words in paragraph
+🔴 LEVEL 8: Real Beginner Projects
+
+These make students feel like “real programmers”.
+
+61. Student Grade System
+
+Features:
+
+Input marks
+Calculate average
+Assign grade
+62. ATM Simulation
+
+Features:
+
+Deposit
+Withdraw
+Balance check
+63. To-Do List App
+
+Features:
+
+Add task
+Remove task
+Show tasks
+64. Number Guessing Game
+65. Password Strength Checker
+
+Check:
+
+Length
+Numbers
+Special characters
+66. Simple Billing System
+67. Contact Book
+
+Store:
+
+Name
+Phone
+Email
+68. Quiz Application
+69. Expense Tracker
+70. Library Management Mini System
