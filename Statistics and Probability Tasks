@@ -4,3 +4,11 @@ Task 1: Descriptive Statistics
 ​Why is the median often more reliable than the mean when a dataset contains extreme outliers?
 ​Calculate the range and standard deviation (conceptually) for the set: [4, 8, 6, 2].
 ​Explain how variance helps us understand the spread of data points compared to the mean.
+
+Task 2: Probability Foundations
+ 1. Define the difference between an **event** and a **sample space** in probability.
+ 2. If you roll a fair six-sided die, what is the probability of rolling a number greater than 4?
+ 3. Explain the difference between **independent** and **dependent** events, and provide a real-world example of each.
+ 4. If the probability of a specific server failure is 0.05, what is the probability that the server **does not** fail?
+ 5. What is the **Addition Rule** in probability, and why do we subtract the intersection of two events?
+To get us started on this task, how would you define the **sample space** if we were flipping two coins simultaneously?
