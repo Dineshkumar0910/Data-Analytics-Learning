@@ -1,0 +1,330 @@
+**Data Analytics using Python**, the problems should not be just "find max/min". They should progressively introduce **NumPy → Pandas → Matplotlib → Seaborn → Real Analytics Thinking**.
+
+# 📊 Python Data Analytics Practice Roadmap (Level-by-Level)
+
+## 🟢 Level 1: Pandas Fundamentals
+
+### Dataset
+
+```python
+import pandas as pd
+
+data = {
+    "Name": ["Amit", "Priya", "Rahul", "Sneha"],
+    "Age": [25, 30, 22, 28],
+    "Salary": [50000, 60000, 45000, 55000]
+}
+
+df = pd.DataFrame(data)
+```
+
+### Problems
+
+1. Display first 2 rows
+2. Display last 2 rows
+3. Check dataset shape
+4. Display column names
+5. Check data types
+6. Display summary statistics
+7. Find average salary
+8. Find maximum age
+9. Find minimum salary
+10. Count total records
+
+### Libraries
+
+```python
+import pandas as pd
+```
+
+---
+
+# 🟢 Level 2: Filtering & Selection
+
+### Problems
+
+11. Employees with salary > 50000
+12. Employees age < 30
+13. Select Name and Salary columns
+14. Employees salary between 45000 and 55000
+15. Employees age > average age
+16. Multiple conditions
+17. Filter by specific name
+18. Count filtered records
+19. Find employees earning highest salary
+20. Find employees earning lowest salary
+
+### Concepts
+
+* loc
+* iloc
+* filtering
+* conditional statements
+
+---
+
+# 🟡 Level 3: Data Cleaning
+
+### Dataset
+
+```python
+import numpy as np
+
+df = pd.DataFrame({
+    "Name":["Amit","Priya",None,"Rahul"],
+    "Salary":[50000,np.nan,60000,45000]
+})
+```
+
+### Problems
+
+21. Identify missing values
+22. Count missing values
+23. Fill missing salary
+24. Drop missing rows
+25. Replace null names
+26. Remove duplicates
+27. Rename columns
+28. Change datatype
+29. Handle invalid values
+30. Create clean dataset
+
+### Concepts
+
+```python
+isnull()
+fillna()
+dropna()
+replace()
+astype()
+```
+
+---
+
+# 🟡 Level 4: GroupBy Analytics
+
+### Dataset
+
+```python
+sales = pd.DataFrame({
+    "Region":["North","South","North","East","South"],
+    "Sales":[1000,2000,1500,1200,1800]
+})
+```
+
+### Problems
+
+31. Total sales by region
+32. Average sales by region
+33. Maximum sales by region
+34. Minimum sales by region
+35. Region with highest sales
+36. Region with lowest sales
+37. Count records by region
+38. Multiple aggregations
+39. Sort group results
+40. Region contribution %
+
+### Concepts
+
+```python
+groupby()
+agg()
+sort_values()
+```
+
+---
+
+# 🟠 Level 5: Real Business KPIs
+
+### Dataset
+
+```python
+orders = pd.DataFrame({
+    "Customer":["A","B","A","C","B"],
+    "Amount":[5000,3000,2000,7000,4000]
+})
+```
+
+### Problems
+
+41. Total revenue
+42. Average order value
+43. Revenue by customer
+44. Top customer
+45. Customer ranking
+46. Revenue contribution %
+47. Repeat customers
+48. Customer Lifetime Value
+49. Revenue distribution
+50. Pareto Analysis (80/20)
+
+### Concepts
+
+Business Analytics Thinking
+
+---
+
+# 🟠 Level 6: Time Series Analytics
+
+### Dataset
+
+```python
+sales = pd.DataFrame({
+    "Date": pd.date_range("2025-01-01", periods=10),
+    "Sales":[100,120,130,150,180,170,200,220,210,240]
+})
+```
+
+### Problems
+
+51. Daily growth rate
+52. Moving average
+53. Rolling mean
+54. Trend analysis
+55. Highest growth day
+56. Lowest growth day
+57. Weekly average
+58. Forecast next day
+59. Cumulative sales
+60. Growth percentage
+
+### Concepts
+
+```python
+rolling()
+shift()
+cumsum()
+```
+
+---
+
+# 🔵 Level 7: Data Visualization
+
+### Problems
+
+61. Bar chart for sales
+62. Pie chart by region
+63. Line chart for trends
+64. Histogram of salary
+65. Scatter plot
+66. Box plot
+67. Multiple charts
+68. Dashboard-style layout
+69. Compare categories visually
+70. Add labels and titles
+
+### Libraries
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
+
+---
+
+# 🔵 Level 8: Exploratory Data Analysis (EDA)
+
+### Dataset
+
+Use:
+
+* Titanic
+* Netflix
+* IPL
+* Superstore
+
+### Problems
+
+71. Identify missing values
+72. Correlation analysis
+73. Outlier detection
+74. Distribution analysis
+75. Feature importance discussion
+76. Category-wise analysis
+77. Trend analysis
+78. Segmentation
+79. Pattern identification
+80. Business insights
+
+---
+
+# 🟣 Level 9: Advanced Pandas
+
+### Problems
+
+81. Merge two datasets
+82. Inner join
+83. Left join
+84. Right join
+85. Concatenate datasets
+86. Pivot table
+87. Crosstab analysis
+88. Multi-index operations
+89. Apply custom functions
+90. Window functions
+
+### Concepts
+
+```python
+merge()
+concat()
+pivot_table()
+apply()
+```
+
+---
+
+# 🔴 Level 10: Real Data Analyst Case Studies
+
+## Superstore Dataset
+
+### Problems
+
+91. Which category generates maximum profit?
+
+92. Which region underperforms?
+
+93. Which products should be discontinued?
+
+94. Which customers contribute most revenue?
+
+95. Is discount affecting profit?
+
+96. Build executive summary.
+
+97. Create KPI dashboard.
+
+98. Present findings to management.
+
+99. Recommend actions.
+
+100. Create end-to-end analytics report.
+
+---
+
+# 🎯 Best Datasets for Python Analytics Practice
+
+Use these well-known datasets:
+
+* Titanic Dataset
+* Netflix Movies and TV Shows Dataset
+* Sample Superstore Dataset
+* IBM HR Analytics Employee Attrition
+* IPL Dataset
+* Global Superstore Dataset
+
+# Teaching Sequence
+
+1. Pandas Basics
+2. Data Cleaning
+3. Data Manipulation
+4. GroupBy & Aggregation
+5. Business KPIs
+6. Time Series
+7. Visualization
+8. EDA
+9. Advanced Pandas
+10. Case Studies & Storytelling
+
+This progression mirrors how real Data Analysts work and prepares students for internships, analyst interviews, and portfolio projects.
