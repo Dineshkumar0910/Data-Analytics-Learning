@@ -11,4 +11,13 @@ Task 2: Probability Foundations
  3. Explain the difference between **independent** and **dependent** events, and provide a real-world example of each.
  4. If the probability of a specific server failure is 0.05, what is the probability that the server **does not** fail?
  5. What is the **Addition Rule** in probability, and why do we subtract the intersection of two events?
-To get us started on this task, how would you define the **sample space** if we were flipping two coins simultaneously?
+ 6. To get us started on this task, how would you define the **sample space** if we were flipping two coins simultaneously?
+
+Task 3: Probability Distributions
+
+1. Explain the difference between a **Discrete** and a **Continuous** random variable. Provide an example of each.
+2. What does the **Expected Value** ($E[X]$) represent in a probability distribution?
+3. Describe the characteristics of a **Normal Distribution** (Bell Curve) and why it is so prevalent in real-world data.
+4. If a process follows a **Binomial Distribution**, what are the four conditions (BINS) that must be met?
+5. What is the **Law of Large Numbers**, and how does it relate to the accuracy of sample means?
+
