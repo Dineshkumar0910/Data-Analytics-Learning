@@ -21,3 +21,12 @@ Task 3: Probability Distributions
 4. If a process follows a **Binomial Distribution**, what are the four conditions (BINS) that must be met?
 5. What is the **Law of Large Numbers**, and how does it relate to the accuracy of sample means?
 
+Task 4: Inference & Sampling
+
+*This task bridges the gap between the sample data we collect and the population parameters we want to understand.*
+
+1. What is the **Central Limit Theorem (CLT)**, and why is it considered the "holy grail" of statistics for data analysts?
+2. Explain the relationship between **Sample Size** and **Standard Error**. What happens to our estimate as we increase our sample size?
+3. Define a **Confidence Interval** (e.g., 95%). What does it actually mean in terms of our certainty about a population parameter?
+4. In the context of **Hypothesis Testing**, what is the difference between a **Null Hypothesis ($H_0$)** and an **Alternative Hypothesis ($H_a$)**?
+5. What does a **p-value** represent, and how do we use it to decide whether to reject or fail to reject the null hypothesis?
