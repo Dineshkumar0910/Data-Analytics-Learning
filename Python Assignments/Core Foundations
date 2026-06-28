@@ -1,0 +1,107 @@
+Here is a foundational Python assignment focusing exclusively on variables, basic data types (int, float, str, bool), arithmetic operators, and basic input/output operations. It completely avoids complex concepts like loops, lists, functions, or conditional logic (if statements). [1, 2, 3, 4, 5] 
+------------------------------
+## Python Assignment: Core Foundations## Objectives
+
+* Practice creating and naming variables.
+* Master basic data types (int, float, str, bool).
+* Apply arithmetic and string operations.
+* Use input() to gather data and print() to format results. [1, 6, 7, 8, 9] 
+
+------------------------------
+## Part 1: Conceptual Quick-Check
+Answer these questions in short sentences or a comment block in your Python file.
+
+   1. What data type is returned by the input() function by default?
+   2. Explain the difference between the / operator and the // operator.
+   3. How do you convert a string variable named price_str = "19.99" into a decimal number?
+   4. What value and data type do you get if you evaluate result = (5 > 2)? [10, 11] 
+
+------------------------------
+## Part 2: Practical Coding Exercises## Exercise 1: The Personal Bio Generator
+Goal: Practice string concatenation, variable assignment, and user input. [12, 13, 14] 
+
+* Write a program that asks the user for four inputs: their first name, their favorite color, their birth year, and the current year.
+* Calculate their current age using the subtraction (-) operator.
+* Output a single sentence exactly in this format using string concatenation or an f-string:
+"Hello [Name]! Your favorite color is [Color], and you are [Age] years old." [15, 16, 17] 
+
+## Exercise 2: The Digital Receipt Calculator
+Goal: Practice numeric types (int and float), typecasting, and arithmetic operations. [18, 19, 20] 
+
+* Prompt a cashier to input the following three items:
+1. The price of a laptop charger (decimal)
+   2. The price of a wireless mouse (decimal)
+   3. The quantity of mice purchased (integer)
+* Calculate the subtotal for the items.
+* Calculate an 8% sales tax on that subtotal by multiplying the subtotal by 0.08. [21] 
+* Calculate the final total amount.
+* Print the subtotal, the calculated tax, and the final total value on separate lines with clear labels.
+
+## Exercise 3: Room Tile Estimator
+Goal: Practice utilizing division (/), floor division (//), and modulus (%) operators. [22, 23, 24, 25, 26] 
+
+* Ask the user to input the total length of a room's floor in meters (e.g., 17). [27] 
+* Assume each floor tile is exactly 3 meters long.
+* Write a program to calculate and display:
+1. The total number of tiles that can fit perfectly end-to-end using floor division.
+   2. The remaining leftover length of the floor that cannot fit a whole tile using the remainder (modulus) operator. [28, 29] 
+
+## Exercise 4: Swapping Values (The Logic Puzzle)
+Goal: Reassign variables and verify data changes. [30, 31, 32] 
+
+* Initialize two variables at the top of your script: red_box = "Apples" and blue_box = "Oranges".
+* Without manually typing out the words "Apples" or "Oranges" again, write code to swap the values so that red_box holds "Oranges" and blue_box holds "Apples".
+* Hint: You might need to introduce a temporary third variable to hold one value while switching.
+* Print both variables at the end to show they have swapped successfully. [33, 34, 35, 36] 
+
+------------------------------
+## Part 3: Submission Requirements
+
+* Save all your code in a single file named basics_assignment.py.
+* Organize each exercise with clear single-line comments (e.g., # Exercise 1).
+* Ensure your program runs from top to bottom without crashing.
+
+------------------------------
+If you would like to proceed with this assignment, let me know if you need:
+
+* The complete answer key with the code solutions.
+* Hints for Exercise 4 if you get stuck on the swapping logic.
+* An extra bonus question focusing entirely on Boolean logic operators.
+
+
+[1] [https://realpython.com](https://realpython.com/python-data-types/)
+[2] [https://www.youtube.com](https://www.youtube.com/watch?v=INGJh9DEaBM&t=5)
+[3] [https://cfu288.com](https://cfu288.com/blog/2024-05_cwc-intro-to-python/)
+[4] [https://medium.com](https://medium.com/@jonathanbrodie91/unleashing-the-power-of-python-beginners-guide-e8086c4f2662)
+[5] [https://python.plainenglish.io](https://python.plainenglish.io/python-arithmetic-operators-made-easy-add-subtract-divide-more-d5c09afad83c)
+[6] [https://geog-312.gishub.org](https://geog-312.gishub.org/book/python/02_variables.html)
+[7] [https://medium.com](https://medium.com/hello-world-programming/how-to-learn-python-from-scratch-part-2-python-basics-21876e6f50d5)
+[8] [https://www.slideshare.net](https://www.slideshare.net/slideshow/cbse-python-string-assignment/239656453)
+[9] [https://www.scribd.com](https://www.scribd.com/document/818150074/Lab-Manual-Python-Programming)
+[10] [https://www.askpython.com](https://www.askpython.com/python/built-in-methods/division-operator-differences-in-python)
+[11] [https://subodhvsharma.github.io](https://subodhvsharma.github.io/course/col100/assign2/)
+[12] [https://pynative.com](https://pynative.com/python-input-and-output-exercise/)
+[13] [https://www.udemy.com](https://www.udemy.com/course/unlock-the-secrets-of-the-python-programming-language/)
+[14] [https://www.freecodecamp.org](https://www.freecodecamp.org/news/python-projects-for-beginners/)
+[15] [https://www.coursehero.com](https://www.coursehero.com/tutors-problems/Python-Programming/21404259-I-have-to-write-a-program-that-has-a-conversation-with-the-user-The-p/)
+[16] [https://flexiple.com](https://flexiple.com/python/taking-input-python)
+[17] [https://www.facebook.com](https://www.facebook.com/groups/pypcom/posts/2690475861289466/)
+[18] [https://www.youtube.com](https://www.youtube.com/watch?v=et6WbJcMusI)
+[19] [https://introcomp.mit.edu](https://introcomp.mit.edu/6.100L_sp23/psets/1_pset0)
+[20] [https://www.scribd.com](https://www.scribd.com/document/698771192/Unit-1-Python)
+[21] [https://www.scribd.com](https://www.scribd.com/document/854447416/pythonchpscenario)
+[22] [https://portal.selvamtech.edu.in](https://portal.selvamtech.edu.in/wp-content/uploads/2025/06/UNIT-1-1.pdf)
+[23] [https://docs.python.org](https://docs.python.org/3/reference/expressions.html)
+[24] [https://www.simplilearn.com](https://www.simplilearn.com/arithmetic-operators-in-python-article)
+[25] [https://www.youtube.com](https://www.youtube.com/watch?v=DnnmwKnNHgM)
+[26] [https://www.upgrad.com](https://www.upgrad.com/tutorials/software-engineering/python-tutorial/math-module-in-python/)
+[27] [https://archive.maths.nuim.ie](https://archive.maths.nuim.ie/staff/dmalone/StateExamPapers/ComputerScience-LC-O-2025-PC.pdf)
+[28] [https://www.scribd.com](https://www.scribd.com/document/901133295/Python-assignment-50-questions)
+[29] [https://weisscharlesj.github.io](https://weisscharlesj.github.io/SciCompforChemists/notebooks/chapter_01/chap_01_notebook.html)
+[30] [https://web.mit.edu](https://web.mit.edu/6.102/www/sp23/classes/01-static-checking/)
+[31] [https://www.linkedin.com](https://www.linkedin.com/advice/3/what-best-ways-handle-different-data-formats-bqm0e)
+[32] [https://www.udemy.com](https://www.udemy.com/course/introduction-to-programming-with-python/)
+[33] [https://towardsdatascience.com](https://towardsdatascience.com/python-classes-made-easy-the-definitive-guide-to-object-oriented-programming-881ed609fb6/)
+[34] [https://pynative.com](https://pynative.com/c-programming-variables-data-types-exercises/)
+[35] [https://www.cs.cornell.edu](https://www.cs.cornell.edu/courses/cs2110/2025fa/lectures/lec04/)
+[36] [https://srmvalliammai.ac.in](https://srmvalliammai.ac.in/wp-content/uploads/2025/07/mc4167-python-programming-laboratory-manual.pdf)
